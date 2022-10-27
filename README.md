@@ -45,12 +45,32 @@ make files-clone
 
 it is important that all included videos are in mp4 format, as mkv is not supported by all browsers; typically firefox won't render it
 
+also, each of the 5 python scripts produce one mp4
+
+* `NoIndex.mp4`
+* `WithIndex.mp4`
+* `CloneAndPull.mp4`
+* `PullDiverge.mp4`
+* `PushAndNeedPull.mp4`
+
+the ones with a `And` need to be split into 2
+
 using avidemux for MacOS to split e.g. `CloneAndPull.mp4` into 2 clips `Clone.mp4` and `Pull.mp4`
 
-Open file under avidemux :
+## install avidemux
 
-* select mp4 muxer
-* load big clip
+I used homebrew on mac with
+
+```
+brew install --HEAD avidemux
+```
+
+## split
+
+open file under avidemux :
+
+* **select mp4 muxer**
+* load big clip (the one to be split in 2)
 * use icons A and B to select start and stop, Save...
 
 and done
