@@ -1,0 +1,5 @@
+animations/media
+animations/*.aux
+animations/*.log
+animations/*.tex
+animations/*.dvi
