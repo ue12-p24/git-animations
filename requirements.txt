@@ -1,0 +1,12 @@
+# warning:
+# manim: the community edition
+# manimlib: grant's version
+#
+# as of 2024 oct. I tried to revive this by installing plain 'manim'
+# but to no avail, as our implementation imports manimlib
+# in addition the CLI interface of the 'manim' command is different
+# so picking the wrong lib throws you into changing the Makefile -
+# this is NOT NEEDED, just stick to manimlib
+
+manimlib
+grandalf
