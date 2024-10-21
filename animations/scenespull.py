@@ -89,7 +89,7 @@ class CloneAndPull(Scene):
         self.wait()
 
 
-        display.display("git clone https://github.com/...", console=True)
+        display.display("git clone git@github.com:...", console=True)
 
         git_repo_anchor = (git_repo_icon(height=self.icon_height)
                            .shift(5*LEFT))
