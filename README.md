@@ -4,7 +4,7 @@ the source code to build animations used in the git course
 
 # with what
 
-this uses 3blue1brown's animation engine `manim`
+this uses 3blue1brown's animation engine `manimlib`
 
 # when
 
@@ -63,6 +63,15 @@ I used homebrew on mac with
 
 ```
 brew install --HEAD avidemux
+```
+
+## install the GUI
+
+search for avidemux on the web and download the dmg; might need to allow it to run in the security settings  
+on sequoia, the option to "Allow apps from everywhere is not available anymore, to enable it again you need to
+
+```bash
+sudo spctl --master-disable
 ```
 
 ## split
